@@ -1,0 +1,101 @@
+.modal_background_change{
+    display: none;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.modal_active_change{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: calc(50% - 268px);
+    left: calc(50% - 175px);
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+    padding: 12px 12px;
+}
+
+.modal_title_id{
+    font-family: Open Sans;
+    /* font-weight: bold; */
+    font-size: 16px;
+    padding: 30px 0px 0px 30px;
+}
+
+.modal_title_change{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 0px 0px 15px;
+}
+
+.modal_close_change{
+    width: 29px;
+    height: 29px;
+    float: right;
+    cursor: pointer;
+}
+
+.modal_close_change img{
+    margin: 3px;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+}
+
+.modal_window_change{
+    position:relative;
+    padding: 17px 10px 23px 14px;
+}
+
+.modal_place_input_change{
+    position: relative;
+    overflow: hidden;
+}
+
+.modal_input_change{
+  border: 0;
+  border-bottom: 1px solid #000;
+  outline: 0; 
+  width: 100%;
+  margin-top: 32px;
+}
+
+.modal_place_holder_change span {
+    color: rgba(152, 115, 255, 1);
+}
+
+.modal_btn_cancel_change{
+    font-family: Open Sans;
+    width: 50px;
+    height: 16px;
+    border: 0;
+    border-bottom: 1px solid #000;
+    font-size: 13px;
+    background-color: white;
+    padding: 0 0 0 0;
+
+}
+
+.modal_row_btn_add_change{
+    padding: 0 0 0 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    
+}
+
+.modal_row_btn_cancel_change{
+    padding: 0 0 0 204px;
+}
+
+.modal_row{
+    
+}
+
+
+
+

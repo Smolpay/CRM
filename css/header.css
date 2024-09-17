@@ -1,0 +1,42 @@
+.header__block {
+    width: 1366px;
+    height: 90px;
+    padding: 0 0 0 0;
+    border: 1px black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.header__label{
+    padding: 20px 20px 0px 30px;
+}
+
+.header__form {
+font-family: Open Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 19.07px;
+text-align: left;
+color: #B0B0B0;
+width: 581px;
+height: 44px;
+/* top: 23px; */
+/* left: 123px; */
+/* gap: 0px; */
+border: 1px 0px 0px 0px;
+/* opacity: 0px; */
+}
+
+.header__input{
+    padding: 0 0 0 0;
+}
+
+.header__label__col-sm{
+    /* padding: 0 0 0 0; */
+    width: 5%;
+}
+
+.header__input__col-sm{
+    width: 45%;
+    padding: 23px 0 0 40px;
+
+}

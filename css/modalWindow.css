@@ -1,0 +1,201 @@
+.modal_background{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+
+
+.modal_active{
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: calc(50% - 268px);
+    left: calc(50% - 175px);
+    background-color: rgb(255, 255, 255);
+    cursor: default;
+    padding: 12px 12px;
+    
+}
+
+/* 
+.modal_close{
+    width: 29px;
+    height: 29px;
+    float: right;
+    cursor: pointer;
+
+} */
+
+.modal_close {
+    cursor: pointer;
+    text-align: right;
+    }
+
+.modal_title{
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 30px 0px 0px 15px;
+    /* margin-bottom: 20px; */
+}
+
+
+.modal_close img{
+    margin: 3px;
+    width: 29px;
+    height: 29px;
+    cursor: pointer;
+
+}
+
+.modal_window {
+  position: relative;
+  padding: 17px 10px 23px 14px;
+}
+
+.row.modal_row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal_input {
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 16px; /* Adjust font size as needed */
+}
+
+.modal_place_input {
+  position: relative;
+}
+
+.modal_place_holder {
+  font-family: 'Open Sans';
+  position: absolute;
+  top: 12px;
+  left: 5px;
+  pointer-events: none;
+  color: gray;
+  font-size: 16px; /* Adjust font size as needed */
+  transition: all 0.3s;
+}
+
+.modal_place_input input:valid + .modal_place_holder,
+.modal_input:focus + .modal_place_holder {
+  top: -12px;
+  font-size: 12px; /* Adjust font size as needed */
+  color: rgba(152, 115, 255, 1);
+}
+.modal_btn_add{
+    font-family: Open Sans;
+    border: 0;
+    height: 35px;
+    font-weight: bold;
+    width: 43%;
+    margin: 0 0 0 130px;
+   
+}
+
+.modal_btn_save{
+    font-family: Open Sans;
+    background-color: rgba(152, 115, 255, 1);
+    color: white;
+    width: 162px;
+    height: 48px;
+}
+
+.modal_cancel_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal_row_btn_cancel {
+    text-align: center; /* Optional: Center-align the button's text */
+  }
+  
+  .modal_btn {
+    background: none;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+.modal_row_btn_add{
+    padding: 0 0 0 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    
+}
+
+.modal_row_btn_save{
+    padding: 24px 0 9px 145px;
+}
+
+
+.modal_choice_type{
+    font-family: Open Sans;
+    width: 99px;
+    height: 38.3px;
+    /* margin: 23px 0 9px 50px; */
+    background-color: #C8C5D1;
+    border: none;
+    outline: 0;
+    padding: 1px 0 0 0;
+}
+
+.modal_type_input{
+    font-family: Open Sans;
+    width: 200px;
+    height: 38px;
+    border: none;
+    outline: 0;
+}
+
+.modal_type_btn_del{
+    font-family: Open Sans;
+    width: 39.5px;
+    height: 38.6px;
+    background-color: #C8C5D1;
+    /* border: 1px solid gray; */
+    border: none;
+}
+    
+
+.modal_type_contact{
+        /* border: 1px solid black; */
+        height: 66px;
+        width: 450px;
+        padding:  20px 0 0 54px;
+}
+.modal_del_contact_btn {
+    
+}
+
+.modal_type_contact_row{
+    border: 1px solid grey;
+    width: 340px;
+    height: 40px
+}
+
+.modal_title_id{
+    font-family: Open Sans;
+    /* font-weight: bold; */
+    font-size: 16px;
+    padding: 30px 0px 0px 30px;
+}
+
+row.modal_row{
+
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Клиенты</title>
+
+    <script src="main.js" type="module"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/modalWindow.css">
+    <link rel="stylesheet" href="css/modalWindowChange.css">
+    <link rel="stylesheet" href="css/modalDel.css">
+</head>
+
+<body>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2><strong>Удалить клиента</strong></h2>
+      </div>
+      <div class="modal-body">
+        <p>Вы действительно хотите удалить данного клиента?</p>
+      </div>
+      <div class="modal-footer">
+        <button class="delete-button">Удалить</button>
+        <button class="cancel-button">Отмена</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal_background">
+    <div class="modal_active">
+      <div class="row">
+        <div class="col-sm-10">
+          <div class="modal_title"></div>
+        </div>
+        <div class="col-sm-2">
+          <div class="modal_close">
+            <img src="pictures/Frame 339.png">
+          </div>
+        </div>
+      </div>
+      <div class="modal_window">
+        <div class="row modal_row">
+          <div class="modal_place_input">
+            <input id="surname" class="modal_input modal_surname" required="1" type="text" />
+            <label class="modal_place_holder" for="surname">Фамилия<span>*</span></label>
+          </div>
+        </div>
+        <div class="row modal_row">
+          <div class="modal_place_input">
+            <input id="name" class="modal_input modal_name" required="1" type="text" />
+            <label class="modal_place_holder" for="name">Имя<span>*</span></label>
+          </div>
+        </div>
+        <div class="row modal_row">
+          <div class="modal_place_input">
+            <input id="lastname" class="modal_input modal_lastname" required="1" type="text" />
+            <label class="modal_place_holder" for="lastname">Отчество</label>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal_row_btn_add">
+          <div class="modal_add_contact"></div>
+          <button class="modal_btn_add"><img src="pictures/add_circle_outline.png"> Добавить контакт</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="modal_row_btn_save">
+          <button class="modal_btn_save">Сохранить</button>
+        </div>
+      </div>
+      <div class="modal_cancel_row">
+        <div class="modal_row_btn_cancel">
+          <button class="modal_btn"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header__block">
+    <div class="wrapper">
+      <div class="row">
+        <div class="header__label__col-sm">
+          <img class="header__label" src="pictures/label.png">
+        </div>
+        <div class="header__input__col-sm">
+          <div class="header__input">
+            <input class="header__form" placeholder="Введите текст">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="table__section">
+    <div class="wrapper">
+      <div class="table__title">Клиенты</div>
+      <div class="table__row">
+        <div class="row">
+          <div class="table__id__col-sm">ID
+            <img class="table__arrow_up_id" src="pictures/arrow_upward.png">
+          </div>
+          <div class="table__fio__col-sm">Фамилия Имя Отчество
+            <img class="table__arrow_A" src="pictures/arrow_A.png">
+          </div>
+          <div class="table__created__col-sm">Дата и время создания
+            <img class="table__arrow_down_created" src="pictures/arrow_downward.png">
+          </div>
+          <div class="table__change__col-sm">Последние изменения
+            <img class="table__arrow_down_change" src="pictures/arrow_downward.png">
+          </div>
+          <div class="table__contacts__col-sm">Контакты</div>
+          <div class="table__action__col-sm">Действия</div>
+        </div>
+      </div>
+      <div id="table_body" class="container"></div>
+      <div id="btn_add" class="table_btn_add">
+        <button class="btn_add"><img src="pictures/Vector.png"> Добавить клиента</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
